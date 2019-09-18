@@ -1,0 +1,14 @@
+{
+  "name": "passport-js-samples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "hbs": "^4.0.4",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}

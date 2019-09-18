@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<body>
+  {{#if user}}
+  <h2>Hi {{user.username}}!! You are now logged in.</h2>
+  <form action="/logout" method="post">
+    <input type="submit" value="LOGOUT">
+  </form>
+  <hr>
+  {{/if}}
+  {{#if message}}
+  <p>{{message}}</p>
+  <hr>
+  {{/if}}
+
+  <form action="/" method="post">
+    <input type="text" name="username" id="">
+    <input type="password" name="password" id="">
+    <input type="submit" value="Try Auth">
+  </form>
+</body>
+
+</html>
